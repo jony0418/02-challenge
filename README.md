@@ -20,7 +20,7 @@ The goal of the project is to meet accessibility standars, optimize a web page t
 
 This project is seattle in HTML ans CSS. The HTML was updated for the usage of semantic elements and the CSS to improve the styling and the layout.
 
-![A screenshot of the optimized web page.](./Assets/images/screenshot.JPG)
+![A screenshot of the optimized web page.](./Assets/images/screenshot.jfif)
 
 ## File Structure
 
