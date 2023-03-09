@@ -8,22 +8,32 @@
 </head>
 
 <body>
+    <!-- Here I define the header of the html and the nav bar where we can find 
+    the links to the different sections of the page and the logo as the title of the page -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
             <ul>
+                <!-- I shortened the links to the sections of the page and simplified the code -->
                 <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
                 <li><a href="#online-reputation-management">Online Reputation Management</a></li>
                 <li><a href="#social-media-marketing">Social Media Marketing</a></li>
             </ul>
         </nav> 
     </header>
+    <!-- I added the main tag to define the main content of the page, this to differencialte it from the header and the footer -->
     <main>
+        <!-- I started by changing the divs to sections and then I added the id to the sections to be able to link 
+        them to the nav bar, also I erased the class names as they were not being used. I did this to the following 
+        parts of this section -->
         <section class="hero"></section>
         <section class="content">
+            <!-- Here I change the divs to articles to follow the semantic structure of the html -->
             <article id="search-engine-optimization">
+                <!-- Here I started to add the alt attribute to the images to make them accessible to people with disabilities. -->
                 <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization illustration" class="float-left">
                 <h2>Search Engine Optimization</h2>
+                <!-- Here I shortened the text to make it more readable and easier to understand. -->
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business 
                     as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows 
@@ -49,7 +59,11 @@
                 </p>
             </article>
         </section>
+        <!-- Here I added a section to define the benefits of the services offered by the company and differencialte 
+        this from the other section as a secundary content of the page. -->
         <section class="benefits">
+            <!-- I changend the divs to asides to follow the semantic structure of the html and also I changed the 
+            class names to id's to be more specific. -->
             <aside id="benefit-lead">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Lead Generation Benefit illustration">
@@ -76,10 +90,13 @@
             </aside>
         </section>
     </main>
+    <!-- I change the div to a footer to follow the semantic structure of the html and also change the h3 to h4 to follow the
+    heading secuence of the html. -->
     <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
+            <!-- I changed the year to 2023. -->
+            &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
 </body>
