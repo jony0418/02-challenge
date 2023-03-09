@@ -24,9 +24,9 @@ This project is seattle in HTML ans CSS. The HTML was updated for the usage of s
 
 ## File Structure
 
-'index.html': This is the main file for the web page.
-'assets/css/style.css': This file is use to styling the web page.
-'assets/images/': This is the directory where all the images of the web page are contain.
+- 'index.html': This is the main file for the web page.
+- 'assets/css/style.css': This file is use to styling the web page.
+- 'assets/images/': This is the directory where all the images of the web page are contain.
 
 ## Live Demo
 
